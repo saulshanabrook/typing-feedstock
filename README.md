@@ -5,7 +5,7 @@ Home: https://docs.python.org/3.5/library/typing.html
 
 Package license: Python Software Foundation License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Type Hints for Python - backport for Python<3.5
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/typing-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/typing-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/typing-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/typing-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/typing-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/typing-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/typing/badges/version.svg)](https://anaconda.org/conda-forge/typing)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/typing/badges/downloads.svg)](https://anaconda.org/conda-forge/typing)
 
 
 Updating typing-feedstock
