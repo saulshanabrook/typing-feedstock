@@ -1,11 +1,17 @@
+{% set version = "3.5.0.1" %}
+
 package:
   name: typing
-  version: "3.5.0.1"
+  version: {{ version }}
 
 source:
-  fn: typing-3.5.0.1.tar.gz
-  url: https://pypi.python.org/packages/source/t/typing/typing-3.5.0.1.tar.gz
+  fn: typing-{{ version }}.tar.gz
+  url: https://pypi.python.org/packages/source/t/typing/typing-{{ version }}.tar.gz
   md5: dae3d560f98c8b236a64ef1c0f55273a
+
+build:
+    number: 0
+    script: python setup.py install
 
 requirements:
   build:
