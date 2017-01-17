@@ -1,4 +1,4 @@
-{% set version = "3.5.0.1" %}
+{% set version = "3.5.3.0" %}
 
 package:
   name: typing
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: typing-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/t/typing/typing-{{ version }}.tar.gz
-  md5: dae3d560f98c8b236a64ef1c0f55273a
+  url: https://pypi.io/packages/source/t/typing/typing-{{ version }}.tar.gz
+  sha256: ca2daac7e393e8ee86e9140cd0cf0172ff6bb50ebdf0b06281770f98f31bff21
 
 build:
     number: 0
@@ -16,7 +16,6 @@ build:
 requirements:
   build:
     - python
-
   run:
     - python
 
@@ -26,9 +25,11 @@ test:
 
 about:
   home: https://docs.python.org/3.5/library/typing.html
-  license: Python Software Foundation License
+  license: PSF
+  license_file: LICENSE
   summary: 'Type Hints for Python - backport for Python<3.5'
 
 extra:
   recipe-maintainers:
     - msarahan
+    - ocefpaf
