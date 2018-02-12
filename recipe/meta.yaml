@@ -1,4 +1,4 @@
-{% set version = "3.6.2" %}
+{% set version = "3.6.4" %}
 
 package:
   name: typing
@@ -6,16 +6,16 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/typing/typing-{{ version }}.tar.gz
-  sha256: d514bd84b284dd3e844f0305ac07511f097e325171f6cc4a20878d11ad771849
+  sha256: d400a9344254803a2368533e4533a4200d21eb7b6b729c173bc38201a74db3f2
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
 
