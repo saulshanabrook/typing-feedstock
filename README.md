@@ -14,14 +14,16 @@ Summary: Type Hints for Python - backport for Python<3.5
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/typing-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/typing-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/typing-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/typing-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/typing-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/typing-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/typing-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/typing-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/typing-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/typing-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/typing-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/typing-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/typing/badges/version.svg)](https://anaconda.org/conda-forge/typing)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/typing/badges/downloads.svg)](https://anaconda.org/conda-forge/typing)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-typing-green.svg)](https://anaconda.org/conda-forge/typing) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/typing.svg)](https://anaconda.org/conda-forge/typing) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/typing.svg)](https://anaconda.org/conda-forge/typing) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/typing.svg)](https://anaconda.org/conda-forge/typing) |
 
 Installing typing
 =================
