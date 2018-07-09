@@ -10,15 +10,15 @@ source:
 
 build:
   number: 2
-  noarch: python
+  skip: True  # [py>=36]
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python <3.6
+    - python
     - pip
   run:
-    - python <3.6
+    - python
 
 test:
   imports:
