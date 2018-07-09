@@ -9,16 +9,16 @@ source:
   sha256: d400a9344254803a2368533e4533a4200d21eb7b6b729c173bc38201a74db3f2
 
 build:
-  number: 1
-  skip: True  # [py>=36]
+  number: 2
+  noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python
+    - python <3.6
     - pip
   run:
-    - python
+    - python <3.6
 
 test:
   imports:
